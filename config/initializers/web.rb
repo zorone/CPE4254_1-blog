@@ -7,7 +7,7 @@ Rails.application.config.after_initialize do
     dest = Rails.root.join("public/web")
 
     # generate the site
-    Jekyll.site.new(
+    Jekyll.sites.new(
       Jekyll.configuration({
         "config" => Rails.root.join("config", "jekyll.yml").to_s,
         "source" => Rails.root.join("web").to_s,
