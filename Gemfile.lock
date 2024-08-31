@@ -146,8 +146,12 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-feed (0.17.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.7.2)
@@ -173,6 +177,10 @@ GEM
     matrix (0.4.2)
     mercenary (0.4.0)
     mini_mime (1.1.5)
+    minima (2.5.1)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
     minitest (5.25.1)
     msgpack (1.7.2)
     net-imap (0.4.14)
@@ -347,6 +355,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   jekyll (~> 4.3.3)
+  minima (~> 2.5, >= 2.5.1)
   psych
   puma (>= 5.0)
   rails (~> 7.2.1)
