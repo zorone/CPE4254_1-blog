@@ -49,6 +49,7 @@ group :development, :test do
   # github CI workflow
   gem "pg", require: false
   gem "bundler-audit", require: false
+  gem "importmap", require: false
 end
 
 group :development do

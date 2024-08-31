@@ -107,6 +107,12 @@ GEM
       activesupport (>= 6.1)
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
+    importmap (0.1.0)
+      activesupport
+      memoist
+      rainbow
+      thor
+      zeitwerk
     importmap-rails (2.0.1)
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
@@ -131,6 +137,7 @@ GEM
       net-smtp
     marcel (1.0.4)
     matrix (0.4.2)
+    memoist (0.16.2)
     mini_mime (1.1.5)
     minitest (5.25.1)
     msgpack (1.7.2)
@@ -238,7 +245,7 @@ GEM
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
     securerandom (0.3.1)
-    selenium-webdriver (4.23.0)
+    selenium-webdriver (4.24.0)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)
@@ -293,6 +300,7 @@ DEPENDENCIES
   bundler-audit
   capybara
   debug
+  importmap
   importmap-rails
   jbuilder
   pg
